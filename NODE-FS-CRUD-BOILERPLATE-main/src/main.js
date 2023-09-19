@@ -1,0 +1,6 @@
+const {myFileWriter,myFileUpdater,myFileDeleter,myFileReader}=require("./index")
+const main=require('./index')
+main.myFileWriter("testfile","Hello")
+main.myFileReader("testfile")
+main.myFileUpdater("testfile"," world")
+main.myFileDeleter("testfile")
